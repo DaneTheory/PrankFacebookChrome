@@ -1,0 +1,13 @@
+{
+"name":"No Facebook!",
+"description":"Causes logging in with the mouse to be a frustrating experience...",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+		
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["nofacebook.js"]
+    }
+  ]
+}
