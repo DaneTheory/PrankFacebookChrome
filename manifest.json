@@ -7,8 +7,7 @@
     {
 		
       "matches": ["https://www.facebook.com/*"],
-      "js": ["nofacebook.js"],
-			"permissions": ["tabs"]
+      "js": ["nofacebook.js"]
     }
   ]
 }

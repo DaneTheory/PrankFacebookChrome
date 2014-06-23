@@ -5,18 +5,10 @@ if( document.title.indexOf( "Welcome to Facebook" ) != -1 )
 		
   formDiv.onmouseover = function()
   {
-    var winWidth = 0;
-		chrome.windows.getLastFocused( function(w) 
-		{
-			winWidth = window.innerWidth;
-	  } );
-		
     var oldX = formDiv.style.left;
-    var newX = (Math.floor(Math.random() * winWidth) + 1);
-		
-		
-		
-    if( newX > winWidth - formDiv.width )
+    var newX = (Math.floor(Math.random() * 1980) + 1);
+
+    if( newX > 1600 )
     {
       newX -= formDiv.width;
     }
