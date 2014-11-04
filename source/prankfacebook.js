@@ -1,3 +1,4 @@
+
 if( document.title.indexOf( "Welcome to Facebook" ) != -1 ) 
 {
   var form    = document.getElementById( "login_form" );
